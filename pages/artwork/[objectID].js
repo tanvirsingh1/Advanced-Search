@@ -5,7 +5,7 @@ import useSWR from 'swr';
 import ArtworkCardDetail from '@/components/ArtworkCardDetail';
 import { Container, Row, Col, Card, Pagination } from 'react-bootstrap';
 
-export default function objectID() {
+export default function ObjectID() {
     const router = useRouter()
 
   const { objectID } = router.query

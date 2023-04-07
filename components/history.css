@@ -1,0 +1,29 @@
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .history-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .history-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .history-card {
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .history-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

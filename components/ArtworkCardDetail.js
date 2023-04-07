@@ -1,6 +1,5 @@
 import React, { useEffect,useState } from 'react';
 import Error from 'next/error';
-import Link from 'next/link';
 import useSWR from 'swr';
 import { useAtom } from 'jotai';
 import Card from 'react-bootstrap/Card';

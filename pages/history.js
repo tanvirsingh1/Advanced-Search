@@ -37,7 +37,7 @@ setSearchHistory(await removeFromHistory(searchHistory[index]))
             <ListGroup>
           {parsedHistory.map((historyItem, index) => (
            
-             <ListGroup.Item  onClick={(e) => historyClicked(e, index)} className={styles.historyListItem}>{Object.keys(historyItem).map(key => (<>{key}: <strong>{historyItem[key]}</strong>&nbsp;</>))}
+             <ListGroup.Item key={index} onClick={(e) => historyClicked(e, index)} className={styles.historyListItem}>{Object.keys(historyItem).map(key => (<>{key}: <strong>{historyItem[key]}</strong>&nbsp;</>))}
                <Button
               className="float-end"
               variant="danger"

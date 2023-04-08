@@ -25,9 +25,9 @@ export default function Favourites() {
 
           <Card style={{ width: '44rem',textAlign: "center"  }}>
           
-            <Card.Body>
-              <h4>"Nothing Here Try adding some new artwork to the list."</h4>
-            </Card.Body>
+          <Card.Body>
+    <h4>&ldquo;Nothing Here. Try adding some new artwork to the list.&rdquo;</h4>
+  </Card.Body>
           </Card>
         )}
         </Row>

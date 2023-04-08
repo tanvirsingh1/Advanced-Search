@@ -25,8 +25,6 @@ export default function MainNav() {
  
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log(search)
-    console.log("Hello")
     if (search == "") {
       setsearch("");
     } else {
